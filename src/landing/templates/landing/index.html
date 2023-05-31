@@ -1,0 +1,494 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Pyre - Python User Group Reggio Emilia (Italy)</title>
+    <meta name="description" content="Python User Group Reggio Emilia">
+    <meta name="author" content="Pyre">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="{% static "landing/css/base.css" %}">
+    <link rel="stylesheet" href="{% static "landing/css/vendor.css" %}">
+    <link rel="stylesheet" href="{% static "landing/css/main.css" %}">
+
+    <!-- script
+    ================================================== -->
+    <script src="{% static "landing/js/modernizr.js" %}"></script>
+    <script src="{% static "landing/js/pace.min.js" %}"></script>
+
+
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="{% static "landing/images/logo.png" %}" alt="Homepage">
+            </a>
+        </div>
+
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <div class="header-nav__content">
+
+
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">Chi Siamo</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="services">Cosa Facciamo</a></li>
+                    <li><a class="smoothscroll"  href="#works" title="works">Gallery</a></li>
+                </ul>
+
+
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="https://twitter.com/pyrecommunity" target="_blank"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/pyrecommunity" target="_blank"><i class="fa fa-facebook"></i></a>
+                    </li>
+                </ul>
+
+            </div> <!-- end header-nav__content -->
+
+        </nav>  <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="{% static "landing/images/hero-bg.jpg" %}" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h1>
+                    Python User Group <b>Reggio Emilia</b>
+                </h1>
+                <h3>
+                    Benvenuti nella prima community python della Food Valley!
+                </h3>
+
+                <div class="home-content__buttons">
+                    <a href="#" class="smoothscroll btn btn--stroke">
+                        Meetups
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        Chi siamo
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    <span>Scroll Down</span>
+                </a>
+            </div>
+
+            <div class="home-content__line"></div>
+
+        </div> <!-- end home-content -->
+
+
+        <ul class="home-social">
+            <li>
+                <a href="https://www.facebook.com/pyrecommunity"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/pyrecommunity"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
+            </li>
+        </ul>
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id='about' class="s-about">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead subhead--dark">
+                    Ti piace Python e sei di Reggio Emilia?<br />
+                    Vieni a fare gruppo con noi
+                </h3>
+                <h1 class="display-1 display-1--light">We Are PyRE</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row about-desc" data-aos="fade-up">
+            <div class="col-full">
+                <p>
+                    Il PyRE è un gruppo di persone di Reggio Emilia e dintorni che utilizza il linguaggio di programmazione Python per studio, lavoro, divertimento. <br />
+                    Ideato da Guido van Rossum all'inizio degli anni novanta, Python è oggi un linguaggio maturo usato per sviluppare applicazioni distribuite, scripting, computazione numerica e siti web. <br />
+                    Organizziamo incontri periodici per imparare nuove tecniche di programmazione, studiare casi d'uso in ambito aziendale, divertirci con workshop di gruppo, sperimentare l'uso di Python in ambiti diversi (robotica, istruzione, salute, machine learning, big data, Internet of Things, ecc.).
+                </p>
+            </div>
+        </div> <!-- end about-desc -->
+
+        <div class="about__line"></div>
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id='services' class="s-services">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Cosa Facciamo</h3>
+                <h1 class="display-2">Tech, Food & More</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row services-list block-1-2 block-tab-full">
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-mug"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Meetup</h3>
+                    <p>La community è nata per far conoscere le persone. La nostra principale attività è organizzare dei Meetup a Reggio Emilia
+                        dove le persone possono incontrarsi, scambiarsi idee, proporre argomenti interessanti. <br />
+                        Durante i meetup viene proposto un talk su un argomento legato al mondo Python, tenuto dai membri della nostra community o da ospiti esterni,
+                        per finire di solito a cena davanti a una pizza (siamo reggiani, ci piace mangiare!).
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-desktop"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Formazione</h3>
+                    <p>
+                        In un prossimo futuro, ci piacerebbe organizzare dei corsi Python per avvicinare ancora più persone a questo linguaggio.
+                        Corsi base per ragazzi, corsi nelle scuole e centri di formazione, corsi per persone che sviluppano già ma in altri linguaggi.
+                        L'idea è impegnativa, e siamo alla ricerca di volontari che possano aiutarci in questa avventura.
+                    </p>
+                </div>
+            </div>
+
+
+
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- works
+    ================================================== -->
+    <section id='works' class="s-works">
+
+        <div class="intro-wrap">
+
+            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h1 class="display-2 display-2--light">Beautiful is better than ugly</h1>
+                    <h5 class="display-2--light">The Zen of Python</h5>
+                </div>
+            </div> <!-- end section-header -->
+
+        </div> <!-- end intro-wrap -->
+
+        <div class="row works-content">
+            <div class="col-full masonry-wrap">
+                <div class="masonry">
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="{% static "landing/images/portfolio/gallery/1.jpeg" %}" class="thumb-link" title="" data-size="1050x700">
+                                    <img src="{% static "landing/images/portfolio/gallery/1.jpeg" %}"
+                                         srcset="{% static "landing/images/portfolio/gallery/1.jpeg" %} 1x, {% static "landing/images/portfolio/gallery/1.jpeg" %} 2x" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="{% static "landing/images/portfolio/gallery/2.jpeg" %}" class="thumb-link" title="" data-size="1050x700">
+                                    <img src="{% static "landing/images/portfolio/gallery/2.jpeg" %}"
+                                         srcset="{% static "landing/images/portfolio/gallery/2.jpeg" %} 1x, {% static "landing/images/portfolio/gallery/2.jpeg" %} 2x" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="{% static "landing/images/portfolio/gallery/3.jpeg" %}" class="thumb-link" title="" data-size="1050x700">
+                                    <img src="{% static "landing/images/portfolio/gallery/3.jpeg" %}"
+                                         srcset="{% static "landing/images/portfolio/gallery/3.jpeg" %} 1x, {% static "landing/images/portfolio/gallery/3.jpeg" %} 2x" alt="">
+                                </a>
+                            </div>
+
+
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="{% static "landing/images/portfolio/gallery/4.jpeg" %}" class="thumb-link" title="" data-size="1050x700">
+                                    <img src="{% static "landing/images/portfolio/gallery/4.jpeg" %}"
+                                         srcset="{% static "landing/images/portfolio/gallery/4.jpeg" %} 1x, {% static "landing/images/portfolio/gallery/4.jpeg" %} 2x" alt="">
+                                </a>
+                            </div>
+
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="{% static "landing/images/portfolio/gallery/5.jpeg" %}" class="thumb-link" title="" data-size="1050x700">
+                                    <img src="{% static "landing/images/portfolio/gallery/5.jpeg" %}"
+                                         srcset="{% static "landing/images/portfolio/gallery/5.jpeg" %} 1x, {% static "landing/images/portfolio/gallery/5.jpeg" %} 2x" alt="">
+                                </a>
+                            </div>
+
+
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="{% static "landing/images/portfolio/gallery/6.jpeg" %}" class="thumb-link" title="" data-size="1050x700">
+                                    <img src="{% static "landing/images/portfolio/gallery/6.jpeg" %}"
+                                         srcset="{% static "landing/images/portfolio/gallery/6.jpeg" %} 1x, {% static "landing/images/portfolio/gallery/6.jpeg" %} 2x" alt="">
+                                </a>
+                            </div>
+
+
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="{% static "landing/images/portfolio/gallery/7.jpeg" %}" class="thumb-link" title="" data-size="1050x700">
+                                    <img src="{% static "landing/images/portfolio/gallery/7.jpeg" %}"
+                                         srcset="{% static "landing/images/portfolio/gallery/7.jpeg" %} 1x, {% static "landing/images/portfolio/gallery/7.jpeg" %} 2x" alt="">
+                                </a>
+                            </div>
+
+
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="{% static "landing/images/portfolio/gallery/8.jpg" %}" class="thumb-link" title="" data-size="1050x700">
+                                    <img src="{% static "landing/images/portfolio/gallery/8.jpg" %}"
+                                         srcset="{% static "landing/images/portfolio/gallery/8.jpg" %} 1x, {% static "landing/images/portfolio/gallery/8.jpg" %} 2x" alt="">
+                                </a>
+                            </div>
+
+
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="{% static "landing/images/portfolio/gallery/9.jpg" %}" class="thumb-link" title="" data-size="1050x700">
+                                    <img src="{% static "landing/images/portfolio/gallery/9.jpg" %}"
+                                         srcset="{% static "landing/images/portfolio/gallery/9.jpg" %} 1x, {% static "landing/images/portfolio/gallery/9.jpg" %} 2x" alt="">
+                                </a>
+                            </div>
+
+
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                </div> <!-- end masonry -->
+            </div> <!-- end col-full -->
+        </div> <!-- end works-content -->
+
+    </section> <!-- end s-works -->
+
+
+
+
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+
+        <div class="row footer-main">
+
+            <div class="col-six tab-full left footer-desc">
+
+                <div class="footer-logo text-center"></div>
+                <button class="full-width btn--primary">
+                    <a href="mailto:info@pyre.it">
+                        info@pyre.it
+                    </a>
+                </button>
+
+            </div>
+
+            <div class="col-six tab-full right footer-subscribe">
+
+                <h3 class="subhead text-center">AIUTACI A FARCI CONOSCERE!</h3>
+                <h4 class="text-center">condividi il nostro sito sui tuoi account social:</h4>
+                <div class="text-center">
+                    <ul class="contact-social">
+                            <li>
+                                <a href="https://twitter.com/home?status=www.pyre.it" target="_blank"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/sharer/sharer.php?u=www.pyre.it" target="_blank"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/shareArticle?mini=true&url=www.pyre.it&title=&summary=&source=" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div> <!-- end footer-main -->
+
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright PyRE 2016<script>new Date().getFullYear()>2016&&document.write("-"+new Date().getFullYear());</script>, Tutti i diritti riservati</span>
+
+                </div>
+
+                <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="{% static "landing/js/jquery-3.2.1.min.js" %}"></script>
+    <script src="{% static "landing/js/plugins.js" %}"></script>
+    <script src="{% static "landing/js/main.js" %}"></script>
+
+</body>
+
+</html>
